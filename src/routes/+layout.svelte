@@ -20,6 +20,17 @@
 
 <main>
 	<slot />
+	<!-- Default theme. ~960B -->
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/@vime/core@^5/themes/default.css"
+/>
+
+<!-- Optional light theme (extends default). ~400B -->
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/@vime/core@^5/themes/light.css"
+/>
 </main>
 
 <footer>
